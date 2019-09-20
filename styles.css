@@ -1,0 +1,18 @@
+p {
+    color: red;
+    font-family: Comic Sans MS;
+    font-size: 160%;
+}
+p.success {
+    color: green;
+    font-family: Trebuchet MS;
+    font-size: 200%;
+}
+h1 {
+    color: blue;
+    font-family: Amethyst;
+    font-size: 300%;
+}
+body {
+    background-color: yellow;
+}
