@@ -27,6 +27,25 @@
     <p>Well Me And A Couple Other People Created This Website's SEO Tag Without Any Paid SEO Tag.<p>
     <h1>Experiment</h1>
     <p>Well, I'm Using This Website As An Experiment To See If HomeMade SEO Tags Can Really Reach The Second Or Even First Page!</p>
-    <script id="dsq-count-scr" src="//helloworldabout.disqus.com/count.js" async></script>
+    Remove the old script tag, and add this code before the end of the script tag:
+    <div id="disqus_thread"></div>
+    <script>
+
+    (function() {  
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://helloworldabout.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+   </script>
+   <noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+   </noscript>
+ </script>
 </body>
 </html>
