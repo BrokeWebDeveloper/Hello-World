@@ -1,0 +1,1 @@
+<?php define("DBHOST", "your database host"); define("DBUSER", "your database user"); define("DBPASS", "your database password"); define("DBNAME", "your database name"); $link = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME); if(mysqli_connect_error()){ echo "Connection failed: ".mysqli_connect_error(); } ?>
