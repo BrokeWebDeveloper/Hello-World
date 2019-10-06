@@ -62,3 +62,7 @@ h1.font {
     font-family: "Imperfect-Regular";
     src: url('Imperfect-Regular.ttf')  format('truetype');
 }
+
+iframe.lefty {
+    float: left;
+}
