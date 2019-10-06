@@ -63,6 +63,16 @@ h1.font {
     src: url('Imperfect-Regular.ttf')  format('truetype');
 }
 
+@font-face {
+    font-family: "Sketched, Filled And Covered.";
+    src: url('SketchedFilledAndCovered-Regular.ttf')  format('truetype');
+}
+
+h1.fontys {
+    color: red;
+    font-family: Sketched, Filled And Covered.;
+    font-size: 290%;
+}
 iframe.lefty {
     float: left;
 }
