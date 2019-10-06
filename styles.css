@@ -56,6 +56,6 @@ h1.font {
     color: blue;
     @font-face {
     font-family: "Imperfect-Regular";
-    src: url("Imperfect-Regular.ttf");
+    src: url("imperfect-Regular.ttf");
     font-size: 290%;
 }
