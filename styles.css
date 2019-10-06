@@ -54,8 +54,11 @@ button.another {
 
 h1.font {
     color: blue;
-    @font-face {
-    font-family: "Imperfect-Regular";
-    src: url("imperfect-Regular.ttf");
+    font-family: "Imperfect-Regular", sans-serif;
     font-size: 290%;
+}
+
+@font-face {
+    font-family: "Imperfect-Regular";
+    src: url('Imperfect-Regular.ttf')  format('truetype');
 }
