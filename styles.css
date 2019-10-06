@@ -64,13 +64,13 @@ h1.font {
 }
 
 @font-face {
-    font-family: "Sketched, Filled And Covered.";
+    font-family: "SketchedFilledAndCovered-Regular";
     src: url('SketchedFilledAndCovered-Regular.ttf')  format('truetype');
 }
 
 h1.fontys {
     color: red;
-    font-family: Sketched, Filled And Covered.;
+    font-family: SketchedFilledAndCovered-Regular;
     font-size: 290%;
 }
 iframe.lefty {
